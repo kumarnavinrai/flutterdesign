@@ -17,8 +17,8 @@ class Profile extends StatelessWidget {
               decoration: BoxDecoration(
                   color: yellowColor,
                   borderRadius  : const BorderRadius.only(
-                    bottomLeft: Radius.circular(30),
-                    bottomRight: Radius.circular(30),
+                    bottomLeft: Radius.circular(40),
+                    bottomRight: Radius.circular(40),
                   )
               ),
               child: Column(

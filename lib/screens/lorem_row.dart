@@ -30,13 +30,15 @@ class LoremRow extends StatelessWidget {
               padding: EdgeInsets.all(20),
               decoration: BoxDecoration(
                   color: whiteColor,
+                  border: Border.all(color: grey300),
                   borderRadius: BorderRadius.circular(20)
               ),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text("Lorem ipsum", style: Style.headLineStyle3.copyWith(fontWeight: FontWeight.w300),),
                   const SizedBox(height: 10),
-                  Text("Lorem ipsum dolor sit amet", style: Style.headLineStyle3.copyWith(fontWeight: FontWeight.w400)),
+                  Text("Lorem ipsum dolor sit amet", style: Style.headLineStyle3.copyWith(fontWeight: FontWeight.w500)),
                 ],
               ),
             )
